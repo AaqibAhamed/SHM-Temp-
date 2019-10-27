@@ -75,11 +75,14 @@ export default class Navigation extends Component {
             return <div></div>;
         }
         return (
-            <div className="container-fluid header__navbar-group jsNavBar clearfix">
+            <div className="header__navbar-group jsNavBar clearfix">
 
                 <section className="row site-navbar theme-stena-blue">
                         <div className="navbar-element site-logo site-logo--text-home">
-                        <Link to={this.state.NavigationMenu[0].link} className="pl-3 text-left color-light hover-color-light-1 font-weight-normal"><h1 className="h3">{this.state.Company.Name}</h1><h2 className="h5">{this.state.Company.SubTitle}</h2></Link>
+                        <Link to={this.state.NavigationMenu[0].link} className="pl-3 text-left color-light hover-color-light-1 font-weight-normal">
+                            {/* <h1 className="h3">{this.state.Company.Name}</h1><h2 className="h5">{this.state.Company.SubTitle}</h2> */}
+                            <img src={DataProvider.Logo} className="site-logo-img" alt={this.state.Company.Name} />
+                        </Link>
                         </div>
 
                         <div className="navbar-element navbar-trigger navbar-trigger--hamburger jsPopoutTrigger" onClick={menuClick} data-popout-trigger="site-nav">

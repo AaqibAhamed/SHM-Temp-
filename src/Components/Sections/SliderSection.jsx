@@ -1,12 +1,9 @@
 import React, {Component} from "react";
 import {
     MDBRow, 
-    MDBCol, 
-    MDBCarousel,
-    MDBCarouselInner, 
+    MDBCol,  
     MDBCarouselItem, 
     MDBView,
-    MDBCarouselCaption
 } from "mdbreact";
 import "../../Styles/SliderSection.scss";
 
@@ -93,7 +90,7 @@ export default class SliderSection extends Component{
                     <img src={DataProvider.Logo} className="img home-logo-1" alt={this.state.Company.Name} />
                     <h5 className="pt-4 padding-lr-5">“Enabling freedom at sea” stands for SHM’s commitment of offering our clients peace of mind at sea, offshore and onshore. </h5>
                 </MDBCol> */}
-                <MDBCol md="12" style={imageStyles} class="slide-img">
+                <MDBCol md="12" style={imageStyles} className="slide-img">
                     {/* <MDBCarousel
                         activeItem={1}
                         length={slides.length}
