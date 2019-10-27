@@ -1,67 +1,78 @@
 [
     {
-        "name": "SAIFUDDIN HAJEE",
-        "img": "images/team/saifuddin-hajee.jpg",
-        "position": "Chairman"
-    },
-    {
-        "name": "ALIASGAR HAJEE",
-        "img": "images/team/aliasgar.jpg",
-        "position": "Managing Partner"
-    },
-    {
-        "name": "TAHER HAJEE",
-        "img": "images/team/taher-hajee.jpg",
-        "position": "Sr.Vice President"
-    },
-    {
-        "name": "Huzefa Rashid",
-        "img": "images/team/huzaifa.png",
-        "position": "Director - SHM Shipcare Sdn. Bhd., Malaysia"
-    },
-    {
         "name": "Qusai Huzaifa",
-        "img": "images/team/qusai.jpg",
-        "position": "Director - SHM Shipcare (PVT Ltd., Sri Lanka"
+        "position": "Director",
+        "email":"qhm@shmgroup.com"
     },
     {
-        "name": "N. C. CHACKO",
-        "img": "images/team/n-c-chacko.jpg",
-        "position": "Sr. Vice President - Eastern India & South East Asia Region"
+        "name": "Mufaddal Huzaifa",
+        "position": "Director",
+        "email":"mhm@shmgroup.com"
     },
     {
-        "name": "KRISHANAN VAIKUNTHAN",
-        "img": "images/team/vaikunthan.jpg",
-        "position": "VP & Principal Engineer - Kochi, Mangalore, and Sri Lanka Region"
+        "name": "Krishnan Vaikunthan",
+        "position": "VP / Principal Engineer",
+        "email":"kva@shmgroup.com"
     },
     {
-        "name": "MOHAMMED HAJEE",
-        "img": "images/team/mohammed-hajee.jpg",
-        "position": "VP - International Business, Technology, and Communications"
+        "name": "Thomas A.C",
+        "position": "Manager – Techno Commercial",
+        "email":"tac@shmgroup.com"
     },
     {
-        "name": "DASHARATH GOPU",
-        "img": "images/team/dasharath-gopu.jpg",
-        "position": "VP - FRP Boat Building"
+        "name": "Nilmini Perera",
+        "position": "Manager – General",
+        "email":"pnp@shmgroup.com"
     },
     {
-        "name": "C Murugadoss",
-        "img": "images/team/c_murgadass.jpg",
-        "position": "Vice President - Chennai Region"
+        "name": "Madhusha Kumarasamy",
+        "position": "Accountant",
+        "email":"mky@shmgroup.com"
     },
     {
-        "name": "Jivram Mishra",
-        "img": "images/team/jivram-mishra.jpg",
-        "position": "GM - Ship Repairs"
+        "name": "Mariya Abbas",
+        "position": "Executive - Technical and Commercial Activities",
+        "email":"mab@shmgroup.com"
     },
     {
-        "name": "Rajiv Deshpande",
-        "img": "images/team/rajiv-deshpande-.jpg",
-        "position": "GM - Special Projects"
+        "name": "Hussain Anverali",
+        "position": "Executive – Sales & Marketing",
+        "email":"haa@shmgroup.com"
     },
     {
-        "name": "Arghya Mandal",
-        "img": "images/team/arghya.png",
-        "position": "GM - Kolkata and Paradeep Region"
+        "name": "Santhosh Siva",
+        "position": "Engineer – Service",
+        "email":"ssi@shmgroup.com"
+    },
+    {
+        "name": "Dhanakotti Annamalai",
+        "position": "Engineer – Service"
+    },
+    {
+        "name": "Krishnan Ravikumar",
+        "position": "Engineer – Service",
+        "email":"rkk@shmgroup.com"
+    },
+    {
+        "name": "Adi Raja Shameem",
+        "position": "Engineer – Service",
+        "email":"sar@shmgroup.com"
+    },
+    {
+        "name": "K. Sudheer Neeraj",
+        "position": "Engineer – Service",
+        "email":"nks@shmgroup.com"
+    },
+    {
+        "name": "Mohammad Shiran",
+        "position": "Technician – Service"
+    },
+    {
+        "name": "M.S.M Imroze",
+        "position": "Logistics"
+    },
+    {
+        "name": "Nadarasan Nixan",
+        "position": "Executive – Operations"
     }
 ]

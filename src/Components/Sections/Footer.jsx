@@ -81,44 +81,23 @@ export default class Footer extends Component{
                         </MDBCol>
                     </MDBRow>
                     <MDBRow>
-                        <MDBCol lg="4" md="6" sm="12" className="pt-5">
+                        <MDBCol lg="4" md="5" sm="12" className="pt-5">
                             <h5 className="text-uppercase color-primary pb-2">Contact Us</h5>
                             <div className="clearfix text-dark">
                                 <strong>{this.state.Company.Name}</strong><br/>
                                 {this.state.Company.SubTitle} <br/>
                                 {this.state.address}
-                                {this.state.Company.Telephone?<p className="p-2 color-primary-dark m-0">
+                                {this.state.Company.Telephone?this.state.Company.Telephone.map((tel,i)=><p key={i} className="p-2 color-primary-dark m-0">
                                     <MDBIcon icon="phone" />
-                                    <strong><a href={this.state.Company.Telephone.href} className="text-dark pl-2">{this.state.Company.Telephone.text}</a></strong>
-                                </p>:''}
+                                    <strong><a href={tel.href} className="text-dark pl-2">{tel.text}</a></strong>
+                                </p>):''}
                                 {this.state.Company.Email?<p className="p-2 color-primary-dark">
                                     <MDBIcon icon="envelope" />
                                     <strong><a href={this.state.Company.Email.href} className="text-dark pl-2">{this.state.Company.Email.text}</a></strong>
                                 </p>:''}
                             </div>
                         </MDBCol>
-                        <MDBCol lg="3" md="6" sm="12" className="pt-5">
-                            <h5 className="text-uppercase color-primary pb-2">CORPORATE INFO</h5>
-                            <Button href="#" className="footer-btn-1">
-                                Privacy Policy
-                            </Button>
-                            <Button href="#" className="footer-btn-1">
-                                Site Map
-                            </Button>
-                            <Button href="#" className="footer-btn-1">
-                                T&CS
-                            </Button>
-                            <Button href="#" className="footer-btn-1">
-                                Cookies Policy
-                            </Button>
-                            <Button href="#" className="footer-btn-1">
-                                External Data Processor policy
-                            </Button>
-                            <Button href="#" className="footer-btn-1">
-                                Modern Slavery Statment
-                            </Button>
-                        </MDBCol>
-                        <MDBCol lg="5" md="12">
+                        <MDBCol lg="8" md="7">
                             <MDBRow >
                                 <MDBCol md="6" sm="12" className="pt-5">
                                     <h5 className="text-uppercase color-primary pb-2">Navigate to</h5>

@@ -22,10 +22,7 @@ class DataProvider {
         {
             "title": "About Us",
             "link": "/about",
-            "children": [{
-                    "title": "History",
-                    "href": "https://www.shmgroup.com/timeline.php",
-                },
+            "children": [
                 {
                     "title": "Our Team",
                     "link": "/our-team",
