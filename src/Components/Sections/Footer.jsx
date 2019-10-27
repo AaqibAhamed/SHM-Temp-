@@ -87,10 +87,10 @@ export default class Footer extends Component{
                                 <strong>{this.state.Company.Name}</strong><br/>
                                 {this.state.Company.SubTitle} <br/>
                                 {this.state.address}
-                                {this.state.Company.Telephone?<p className="p-2 color-primary-dark m-0">
+                                {this.state.Company.Telephone?this.state.Company.Telephone.map(tel=><p className="p-2 color-primary-dark m-0">
                                     <MDBIcon icon="phone" />
-                                    <strong><a href={this.state.Company.Telephone.href} className="text-dark pl-2">{this.state.Company.Telephone.text}</a></strong>
-                                </p>:''}
+                                    <strong><a href={tel.href} className="text-dark pl-2">{tel.text}</a></strong>
+                                </p>):''}
                                 {this.state.Company.Email?<p className="p-2 color-primary-dark">
                                     <MDBIcon icon="envelope" />
                                     <strong><a href={this.state.Company.Email.href} className="text-dark pl-2">{this.state.Company.Email.text}</a></strong>

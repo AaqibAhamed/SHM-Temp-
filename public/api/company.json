@@ -6,10 +6,16 @@
         "Mattakkuliya, Colombo 15.",
         "Sri Lanka."
     ],
-    "Telephone": {
-        "text": "+94 112 524 053",
-        "href": "tel:+94 112 524 053"
-    },
+    "Telephone": [
+        {
+            "text": "+94 77 210 0098",
+            "href": "tel:+94 77 210 0098"
+        },
+        {
+            "text": "+94 76 975 8997",
+            "href": "tel:+94 76 975 8997"
+        }
+    ],
     "Email": {
         "text": "colombo@shmgroup.com",
         "href": "mailto:colombo@shmgroup.com"
