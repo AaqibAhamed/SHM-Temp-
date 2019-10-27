@@ -20,7 +20,7 @@
         "text": "colombo@shmgroup.com",
         "href": "mailto:colombo@shmgroup.com"
     },
-    "Social": [
+    "Social-old": [
         {
             "title":"Facebook",
             "icon":"facebook",
@@ -30,6 +30,13 @@
             "title":"Instagram",
             "icon":"instagram",
             "href":"#"
+        }
+    ],
+    "Social": [
+        {
+            "title":"Facebook",
+            "icon":"facebook",
+            "href":"https://www.facebook.com/SHMShipcare/"
         }
     ]
 }
