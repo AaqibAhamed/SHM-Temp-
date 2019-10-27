@@ -1,0 +1,658 @@
+[{
+        "id": "feature_1",
+        "icon": "images/lifeboat.svg",
+        "title": "Life Boat Supply & Servicing",
+        "desc": "SHM Shipcare is the foremost Sri Lankan company providing maritime safety solutions. Relying on our experience of over lifeboat servicing 25 years, SHM strives to enable your freedom at sea. We shall achieve this by ensuring proper functioning of survival systems and improving safety standards on your vessels. Our Lifeboat, Rescue Boat & Davit Systems Services include:",
+        "content": [{
+                "title": "LIFEBOATS, RESCUE BOATS, AND THEIR LAUNCHING APPLIANCES SERVICES",
+                "desc": "SHM Shipcare is the foremost Sri Lankan company providing maritime safety solutions. Relying on our experience of over lifeboat servicing 25 years, SHM strives to enable your freedom at sea. We shall achieve this by ensuring proper functioning of survival systems and improving safety standards on your vessels. Our Lifeboat, Rescue Boat & Davit Systems Services include:",
+                "type": 1
+            },
+            {
+                "title": "PERIODIC INSPECTIONS",
+                "desc": "SHM’s team of qualified and experienced personnel provide annual and 5 yearly inspection and maintenance services at short notice, 24/7, in accordance to IMO 1206/rev.1. Our service stations also possess necessary equipment to conduct load tests and on-voyage repairs. We are authorized by over 27 manufacturers and recognized by all major classification societies.",
+                "type": 0
+            },
+            {
+                "type": 3,
+                "slides": [{
+                        "title": "Class Survey",
+                        "desc": "Our service engineer conducting an on-board lifeboat launching training during an annual inspection",
+                        "type": 2,
+                        "image": "images/f1/classSurvey.jpeg"
+                    },
+                    {
+                        "title": "Load Test",
+                        "desc": "Free-fall lifeboat davit load test using water bags after five yearly service routine",
+                        "type": 2,
+                        "image": "images/f1/loadTest.jpeg"
+                    },
+                    {
+                        "title": "Winch Break Inspection",
+                        "desc": "Our service engineer inspecting release handle during the winch brake inspection routine.",
+                        "type": 2,
+                        "image": "images/f1/wbi.jpeg"
+                    },
+                    {
+                        "title": "Splinker Test",
+                        "desc": "Sprinkler test carried out after annual inspection for tanker model lifeboats",
+                        "type": 2,
+                        "image": "images/f1/splinkerTest.jpeg"
+                    },
+                    {
+                        "title": "Drop Test",
+                        "desc": "Drop test conducted in presence of class surveyor after hook retrofit is completed.",
+                        "type": 2,
+                        "image": "images/f1/dropTest.jpeg"
+                    }
+                ]
+            },
+            {
+                "title": "REFURBISHMENT",
+                "desc": "Our advanced service stations and repair facilities are well equipped to carry out complete servicing, overhaul, and repair of Engine and Sprinkler Systems, FRP Hull & Body, Release Gear, Davit and Winch, Fall Wire renewal, and Hydrostatic testing and refilling of compressed air systems. We also offer replacement equipment for hire during the overhaul stage, subject to availability.",
+                "type": 0
+            },
+            {
+                "type": 3,
+                "slides": [{
+                        "title": "FRP Repairs",
+                        "desc": "We have the capability of renovating and repairing all exterior and interior sections of the lifeboat. We also offer similar services for davits and winches.",
+                        "type": 2,
+                        "image": "images/f1/FRP_Repairs.jpeg"
+                    },
+                    {
+                        "title": "Serivce Facility",
+                        "desc": "Our service engineers and technicians working on different sections of the lifeboat during the five yearly service.",
+                        "type": 2,
+                        "image": "images/f1/Service_Facility.jpeg"
+                    },
+                    {
+                        "title": "Engine OverHaul",
+                        "desc": "Our in-house engine experts conduct complete engine overhauls and refurbishment during the five yearly service.",
+                        "type": 2,
+                        "image": "images/f1/Engine-OverHaul.jpeg"
+                    },
+                    {
+                        "title": "Lifeboat Exterior Repair",
+                        "desc": "We have in-house capabilities to fabricate SS 316 lifeboat exterior fittings such as handles, hatch covers, etc.",
+                        "type": 2,
+                        "image": "images/f1/Lifeboat-Extrior-Repair.jpeg"
+                    },
+                    {
+                        "title": "Release Hook Servicing",
+                        "desc": "With the new IMO regulation MSC.1391/Circ.1 all non compliant hook systems need to be replaced in the first scheduled dry docking after July 1, 2014.",
+                        "type": 2,
+                        "image": "images/f1/Release_Hook_servicing.jpeg"
+                    }
+                ]
+            },
+            {
+                "title": "INSTALLATION & COMMISSIONING OF LIFEBOAT SYSTEMS",
+                "desc": "We offer Survival Crafts, Rescue Boats and their launching appliances designed to meet your specific requirements. Our experienced team, extensively trained by over 27 OEM partners, understand industry needs and shall deliver as per your expectations. The equipment we supply and commission guaranteed with the manufacturer's after-sales service support and with genuine spare parts.",
+                "type": 0
+            },
+            {
+                "type": 3,
+                "slides": [{
+                        "title": "Platform Davit Installation",
+                        "desc": "We have a proven track record for installing lifeboats, davits, and winches on offshore platforms and marine ocean going vessels.",
+                        "type": 2,
+                        "image": "images/f1/Platform_Davit_Installation.jpeg"
+                    },
+                    {
+                        "title": "Rescue Boat Commissioning",
+                        "desc": "Our service engineers installing a newly delivered rescue boat on an offshore platform.",
+                        "type": 2,
+                        "image": "images/f1/Rescue Boat Commissioning.jpeg"
+                    },
+                    {
+                        "title": "Life Boat Installation",
+                        "desc": "Lifeboat being load tested and hoisted on free-fall davit after five yearly service.",
+                        "type": 2,
+                        "image": "images/f1/Life Boat Installation.jpeg"
+                    },
+                    {
+                        "title": "New Life Boat Delivery",
+                        "desc": "New lifeboat at manufacturing facility ready for shipment to India for commissioning on an offshore platform.",
+                        "type": 2,
+                        "image": "images/f1/New Life Boat Delivery.jpeg"
+                    },
+                    {
+                        "title": "Sea Trail",
+                        "desc": "Rescue boat sea trial being conducted offshore prior to commissioning on platform",
+                        "type": 2,
+                        "image": "images/f1/Sea Trail.jpeg"
+                    }
+                ]
+            },
+            {
+                "title": "RIGID AND INFLATABLE RESCUE BOAT SERVICING",
+                "desc": "In accordance to IMO 1206/rev.1, all rigid and inflatable rescue boats also are to be subjected to the annual and 5-yearly inspection and maintenance routines as described before. An additional pressure test of the buoyancy chamber of the inflatable rescue boat is required as per manufacturer’s guidelines.",
+                "type": 0
+            },
+            {
+                "type": 3,
+                "slides": [{
+                        "title": "Pressure Test at Service Station",
+                        "desc": "Our team conducting a periodic inflation and pressure test of a rescue boat at service station.",
+                        "type": 2,
+                        "image": "images/f1/pressure_test.jpeg"
+                    },
+                    {
+                        "title": "Single Arm Davit Winch Inspection",
+                        "desc": "Our service engineer servicing a rescue boat slewing davit during an annual inspection routine.",
+                        "type": 2,
+                        "image": "images/f1/single_arm_davit.jpeg"
+                    },
+                    {
+                        "title": "Dynamic Winch Break Test",
+                        "desc": "Winch brake being dynamically tested by lowering the rescue boat to ensure the equipment is serviced properly",
+                        "type": 2,
+                        "image": "images/f1/Dynamic_Winch_Break_Test.jpeg"
+                    },
+                    {
+                        "title": "Release Hook Inspection",
+                        "desc": "Our service engineer inspecting a rescue boat release hook during an annual inspection. These hooks are usually required to be overhauled by the manufacturer during the five yearly routine.",
+                        "type": 2,
+                        "image": "images/f1/release_hook_inspection.jpeg"
+                    },
+                    {
+                        "title": "Rescue Boat Launch Test",
+                        "desc": "Inflatable rescue boats need to be launch tested after the annual inspection to ensure the lifting slings, connector points, and release hook are all in satisfactory working condition.",
+                        "type": 2,
+                        "image": "images/f1/rescue_boat_launch_test.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "feature_2",
+        "icon": "images/liferaft_2.svg",
+        "title": "Life Raft Supply & Servicing",
+        "img": "images/f2/Life-Raft-Service-Station-_6_.jpeg",
+        "content": [{
+                "title": "LIFERAFT SERVICING",
+                "desc": "Life Raft & Rescue Boat Servicing Apart from having a state of the art Life Raft manufacturing facility in Chennai, we also have an extensive network of DG Shipping Approved, MMD Approved, and DNV ISO Certified Life Raft and Rescue Boat Service.<br/>Lifeboats are undisputedly the most important maritime safety tool, placed on all sorts of ships, rigs, platforms and other marine-related structures. Periodic inspections and maintenance of Lifeboats are critical to prevent life boat accidents that cause major injuries and may even result in fatalities. SHM is a full-service provider with regulatory certification, OEM-trained technicians and OEM engineering support that is required to provide you complete the lifeboat services you need as per IMO 1206. Lifeboats are undisputedly the most important maritime safety tool, placed on all sorts of ships, rigs, platforms and other marine-related structures. Periodic inspections and maintenance of Lifeboats are critical to prevent life boat.<br/>SOLAS Regulation III/ 20.8 requires every inflatable liferaft to be serviced at an interval not exceeding 12 months. In case this annual service impracticable. The Administration may extend this period to 17 months. SOLAS also mandates that liferafts should be serviced at approved service stations which maintain proper infrastructure and use properly trained personnel.<br/>Our network of liferaft servicing in India make it possible for us to cover all your servicing needs from single point contact at your local SHM branch office. Our service stations stock OEM spare parts so that you can receive prompt and quality services at any station most convenient for you. Our stations are approved by over 12 manufacturers and all major classification societies. We are located across 14 ports in India. and in Dubai, Singapore, and Malaysia and Sri Lanka.",
+                "type": 1
+            },
+            {
+                "slides": [{
+                        "title": "Liferaft Inflation & Pressure Test",
+                        "desc": "Our service team conducting necessary valve pressure checks after inflating the life raft at the service station",
+                        "type": 2,
+                        "image": "images/f2/services-liferafts-1.jpeg"
+                    },
+                    {
+                        "title": "Service as per manufacturer s guidelines",
+                        "desc": "At our service stations, service and repair work are carried out only by qualified persons who have been trained and certified by liferaft manufacturers.",
+                        "type": 2,
+                        "image": "images/f2/services-liferafts-2.jpeg"
+                    },
+                    {
+                        "title": "Liferaft Container Repairs & Painting",
+                        "desc": "Our FRP experts can repair most damages on liferaft containers at short notice and with quick turnaround time.",
+                        "type": 2,
+                        "image": "images/f2/services-liferafts-3.jpeg"
+                    },
+                    {
+                        "title": "DL Liferaft Suspension Test",
+                        "desc": "Our technicians conducting an overload suspension test on a davit-launched liferaft during its periodic servicing, as per manufacturer s guidelines.",
+                        "type": 2,
+                        "image": "images/f2/services-liferafts-4.jpeg"
+                    },
+                    {
+                        "title": "Liferaft Storage",
+                        "desc": "Our technicians placing liferafts on storage racks after they ve been serviced and are ready to be transported back to the vessel.",
+                        "type": 2,
+                        "image": "images/f2/services-liferafts-5.jpeg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_3",
+        "icon": "images/firefighting.svg",
+        "title": "Fire Fighting Appliance Inspection & Service",
+        "img": "images/f3/Services-firefighting.jpg",
+        "content": [{
+                "title": "FFA SERVICES",
+                "desc": "As per guidelines provided by the IMO and Flag State Administrations,fire protection systems and appliances should be serviced examined, and tested periodically by an authorized facility acceptable by the ship's Classification Society. It is imperative to ensure fire safety equipment are available for immediate use while the ship or offshore installation is in service.",
+                "type": 1,
+                "extra": [{
+                        "type": 0,
+                        "desc": "At SHM, we are well equipped with advanced infrastructure and trained personnel to service and test the following fire safety equipment:"
+                    },
+                    {
+                        "type": 4,
+                        "list": [
+                            "Portable & Non-Portable Extinguishers, Foam Applicators",
+                            "Breathing Apparatus",
+                            "Medical Oxygen Resuscitators",
+                            "Foam Concentrate Analyses",
+                            "Fixed CO2, Foam, DCP, Water Mist, Sprinkler, Wet Chemical Galley Systems",
+                            "Compressor Air Quality Test",
+                            "Fresh/Drinking Water Analysis",
+                            "Lifeboat Air Bottles"
+                        ]
+                    }
+                ]
+            },
+            {
+                "slides": [{
+                    "title": "Nitrogen Filling",
+                    "desc": "Our technician using the machine to punch nitrogen in a stored pressure type fire extinguisher after its inspection and hydro test.",
+                    "type": 2,
+                    "image": "images/f3/services-ffa-content-1.jpeg"
+                }],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_4",
+        "icon": "images/crane.svg",
+        "title": "Crane Inspection & Service",
+        "content": [{
+                "title": "",
+                "desc": "",
+                "type": 1
+            },
+            {
+                "title": "",
+                "desc": "",
+                "type": 0
+            },
+            {
+                "slides": [{
+                    "title": "",
+                    "desc": "",
+                    "type": 2,
+                    "image": "images/f4/"
+                }],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_5",
+        "icon": "images/hook.svg",
+        "title": "Hook Replacement",
+        "content": [{
+                "title": "HOOK REPLACEMENT",
+                "desc": "Having conducted over 100 re-hooking jobs, we at SHM can take care of your complete re-hooking requirements no matter what brand of lifeboats you have in your fleet. Our experienced ream shall guide you through the rules and regulations and ensure minimum impact on your operations.",
+                "type": 0
+            },
+            {
+                "title": "WHAT DOES THE NEW IMO REGULATION SAY?",
+                "desc": "According to the MSC. 1392/Circ.1, the new copmliant hook systems must meet the new requirements concerning the lock ing arrangement and stability of the hook system. The new hook systems must be manufactured in corrosion resistant material. The new LSA Code and MSC.81(70) states the following test criteria",
+                "type": 1,
+                "extra": [{
+                    "type": 4,
+                    "list": [
+                        "30kg release force",
+                        "45  cam rotation",
+                        "Corrosion resistant material",
+                        "Durability test (50 on-load releases)",
+                        "No Force on the release cables",
+                        "Cyclic loding test"
+                    ]
+                }]
+            },
+            {
+                "slides": [{
+                        "title": "New vs. Old Hook",
+                        "desc": "With the new IMO regulation MSC.1391/Circ.1 all non compliant hook systems need to be replaced in the first scheduled dry docking after July 1, 2014.",
+                        "type": 2,
+                        "image": "images/f5/services-hook-1.jpeg"
+                    },
+                    {
+                        "title": "FRP Foundation Construction",
+                        "desc": "We have the expertise to modify existing lifeboat FRP structures, as per manufacturer guidelines, to install and accommodate new compliant hook systems.",
+                        "type": 2,
+                        "image": "images/f5/services-hook-2.jpg"
+                    },
+                    {
+                        "title": "New Hook on FRP Foundation",
+                        "desc": "Once a FRP foundation is constructed, then the new compliant hook system can be satisfactorily installed.",
+                        "type": 2,
+                        "image": "images/f5/services-hook-3.jpg"
+                    },
+                    {
+                        "title": "New Hook Inspection",
+                        "desc": "Our service engineer conducting final sanity checks after a new compliant hook system is installed on the lifeboat.",
+                        "type": 2,
+                        "image": "images/f5/services-hook-4.jpg"
+                    },
+                    {
+                        "title": "Lifeboat Load Test",
+                        "desc": "Lifeboat is load tested after the hook retrofit to ensure the system has been installed and is functioning properly.",
+                        "type": 2,
+                        "image": "images/f5/services-hook-5.jpg"
+                    },
+                    {
+                        "title": "New Hook on SS Foundation",
+                        "desc": "We have the capability and experience in fabricating stainless steel hook foundation plates as per existing lifeboat and new hook structural requirements.",
+                        "type": 2,
+                        "image": "images/f5/services-hook-6.jpg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_6",
+        "icon": "images/immersion_suit.svg",
+        "title": "Immersion Suits",
+        "img": "images/f6/Services-immersionsuit_Banner.jpg",
+        "content": [{
+                "title": "IMMERSION SUIT SERVICES",
+                "desc": "Seams, closures, adhesives and materials of immersion suits and anti- exposure suits have a finite service life and experience deterioration with time.<br/>As per IMO Guidelines (MSC/Circ.1114), in order to ensure the maintenance of adequate strength and water tightness of seams and closures of immersion suits with age, it is recommended to subject",
+                "type": 1
+            },
+            {
+                "slides": [{
+                        "title": "Air Inflation of Suit",
+                        "desc": "Our technician injecting air into the immersion suit as part of the periodic air pressure test routine at our maker and class approved facility.",
+                        "type": 2,
+                        "image": "images/f6/services-immersionsuit-1.jpg"
+                    },
+                    {
+                        "title": "Air Pressure Test",
+                        "desc": "After inflation, the suit is checked for leaks by covering the suit with soapy water or immersing the suit in our testing tank to observe bubbles.",
+                        "type": 2,
+                        "image": "images/f6/services-immersionsuit-3.jpg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_7",
+        "icon": "images/feature_7.svg",
+        "title": "Inflatable Life Jackets",
+        "img": "images/f7/Services-lifejacket.jpg",
+        "content": [{
+                "title": "INFLATABLE LIFEJACKETS",
+                "desc": "Just as in liferafts, SOLAS requires inflatable lifejackets to be serviced at intervals not exceeding 12 months or, 17 months if the Administration gives an extension. Regular inspections of webbing and cover material for damages, buckle operation, firing mechanism and cylinder tightness checks are very important. SHM sservice",
+                "type": 1
+            },
+            {
+                "slides": [{
+                        "title": "Manufacturer approved Service Facility",
+                        "desc": "Inflatable lifejackets should be serviced in accordance with manufacturer s instructions, at service stations accredited by them having necessary tools and spares",
+                        "type": 2,
+                        "image": "images/f7/Inflatable-lifejackets-1.jpg"
+                    },
+                    {
+                        "title": "Lifejacket Inflation & Pressure Test",
+                        "desc": "Lifejackets need to be inflated, their pressure tested, and their fabric thoroughly inspected in and out for leakages.",
+                        "type": 2,
+                        "image": "images/f7/Inflatable-lifejackets-2.jpg"
+                    },
+                    {
+                        "title": "Gas Cartridge Weighment",
+                        "desc": "Unfired lifejacket cartridges being weighed during a periodic service to ensure sufficient gas is available to inflate the lifejacket completely.",
+                        "type": 2,
+                        "image": "images/f7/Inflatable-lifejackets-3.jpg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_8",
+        "icon": "images/pyrotechnics.svg",
+        "title": "Pyrotechnics",
+        "content": [{
+                "title": "WHAT ARE PYROTECHNICS?",
+                "desc": "Pyrotechnics are defined as  the science of using materials capable of undergoing self-contained and self-sustained exothermic chemical reactions for the production of light, heat, gas, smoke, and/or sound. <br/>Simply put, pyrotechnics are a visual aid to send an SOS signal in case of an emergency at sea. Despite advanced tracking and location systems used on ships today, pyrotechnics still have an important role to play.<br/>Seafarers, ship manufacturers, and ship owners are responsible for ensuring that the appropriate pyrotechnics equipment is available on the ship at all times and the crew is trained to locate and use them efficiently, should the need to do so arise. <br/>Post the Titanic disaster, the SOLAS treaty has also stipulated the minimum type and quantity of pyrotechnics to be carried on board the vessel. In addition, maritime nations have their own additional requirements as well, which are made mandatory for marine ship and personnel safety.",
+                "type": 1
+            },
+            {
+                "title": "Types of Pyrotechnics",
+                "desc": "The type and number of pyrotechnics used differs as per the size of the vessel and the application for which it is used.",
+                "type": 0
+            },
+            {
+                "slides": [{
+                        "title": "Red Hand Flares",
+                        "desc": "Hand flares are self-ignitable handheld distress signals that burn uniformly with a bright red colour for at least one minute. They are water resistant to an extent of 10 seconds in shallow depths of upto 100 mm. The hand flares are useful in pinpointing the exact location of the craft and should be lighted when rescue is within sight.",
+                        "type": 2,
+                        "image": "images/f8/Hand Held Flares.jpg"
+                    },
+                    {
+                        "title": "Rocket Parachute Flares",
+                        "desc": "Rocket parachute flares are designed to reach a height of at least 300-350m when fired vertically, burning with a bright red light indicating the vessel s location. The parachute attached to the flare opens at the top, slowing the flare s descent so that it is visible for a longer time. The self-ignitable design of the rocket parachute flare is expected to be such that the parachute does not catch fire under any circumstances and has a maximum descent rate of 5mtr/sec.",
+                        "type": 2,
+                        "image": "images/f8/Rocket Parachute Flares.jpg"
+                    },
+                    {
+                        "title": "Line-Throwing Appliances",
+                        "desc": "Line-throwing appliances, or bridges, are used to connect the ship in distress to the rescue ship creating a safety link between the two. These lines can be then used to pass towing lines or other safety equipment as required.<br/>Line-throwing appliances are expected to be able to carry the line for at least 230 mts in calm weather and have at least four projectiles.",
+                        "type": 2,
+                        "image": "images/f8/Line Throwing Apparatus.jpg"
+                    },
+                    {
+                        "title": "Buoyant Smoke Signals",
+                        "desc": "Smoke signals are red or orange in colour and can function upto 15 minutes in calm conditions. They do not emit flames of any sort or spark in the hands of the holder. These signals are also used to pinpoint the direction and location of the vessel unless the weather conditions are not supported.",
+                        "type": 2,
+                        "image": "images/f8/Bouyant Smoke.jpg"
+                    },
+                    {
+                        "title": "Man Overboard Signal Smoke Markers (MOBs)",
+                        "desc": "MOBs are used to mark the position of a man overboard by day or night. Ships are required to carry 2 markers, one mounted on each bridge wing with the brackets supplied and attached by line to a 4 kg Lifebuoy.",
+                        "type": 2,
+                        "image": "images/f8/Man OVer Board.jpg"
+                    }
+                ],
+                "type": 3
+            },
+            {
+                "title": "",
+                "desc": "Apart from these, modern pyrotechnics include laser flares, navigation and distress lights, which are used to home in on the location of the ship needing rescue. Carriage of SOLAS-approved pyrotechnics equipment is mandatory on ships and vessels; their quantity differs as per the type of ship and application.",
+                "type": 0
+            }
+        ]
+    },
+    {
+        "id": "feature_9",
+        "icon": "images/frp_boat.svg",
+        "title": "FRP Boat Repairs",
+        "img": "images/f9/Services-boatrepairs.jpg",
+        "content": [{
+                "title": "FRP BOAT REPAIRS AND DRY DOCKING",
+                "desc": "Craftway Engineers Ltd., a member of the SHMGroup of Companies, is one of the pioneers for building FRP Boats indigenously in India. AnISO9001 certified boat building company, Craftway is infrastructure parallel international standards.<br/>Apart from bespoke boat-building, we also specialize in repair, maintenance, and dry- docking of all kinds of FRP boats, tanks, storage cabinets, hatches, etc. We work closely with our clients to meet their critical requirements with quick response times, and with latest boat design and construction technology.<br/>We can provide the following services to meet your repair requirements:",
+                "type": 1,
+                "extra": [{
+                        "type": 4,
+                        "list": [
+                            "FRP lamination and build- up",
+                            "Gelcoat repair and rebuffing",
+                            "Anti Fouling and Painting",
+                            "Monsoon dry- docking services and storage",
+                            "Furniture repairs and carpentry work",
+                            "Engine, water-jet service and overhauling",
+                            "Deck Fitting and Upholstery work",
+                            "Stainless Steel Fabrication",
+                            "Electrical and Mechanical Repairs",
+                            "Trailer/ Cradle manufacture and repairs",
+                            "Design and Mould Making",
+                            "Lab test of FRP laminate panels",
+                            "Preventive maintenance inspections, repairs"
+                        ]
+                    },
+                    {
+                        "type": 0,
+                        "desc": "At Craftway, we take pride in the quality of our construction and repair work. All materials used and procedures followed at our facility are class approved. Please get in touch with us to rejuvenate, maximize reliability, and enhance long-term service life of your boats."
+                    }
+                ]
+            },
+            {
+                "slides": [{
+                        "title": "Naval barge before refurbishment",
+                        "desc": "The Indian Navy CNC s Barge at dry docked at our facility for complete refurbishment",
+                        "type": 2,
+                        "image": "images/f9/frp-boat-1.jpg"
+                    },
+                    {
+                        "title": "After refurbishment",
+                        "desc": "The CNC Barge being launched into the water after its refurbishment is completed.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Gel coat repair and rebuffing",
+                        "desc": "Our skilled technicians sanding the hull of a boat preparing it for gelcoat and structural repairs.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Anti fouling and painting",
+                        "desc": "Refurbished boat after its sanding, gelcoat repairs, anti-fouling, and final painting is completed.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Dry Docking services & storage",
+                        "desc": "We provide complete dry docking services at our facilities where boat owners can take advantage of our all-inclusive repair and refurbishment services. We also provide storage for boats during the monsoon season.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Main engine servicing",
+                        "desc": "Our skilled engineers have been trained by several manufacturers and can conduct complete overhauls and major repairs on your engines in-house.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Design, carpentary and upholstery",
+                        "desc": "Through our designers, carpenters and tailors we can satisfy all your boat interior and exterior designing, re-designing, modernizing and conversion needs.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Out board motor installation",
+                        "desc": "Our OEM certified engineers can undertake complete overhauls, modifications, installations, and repair of any kind of Outboard Motors.",
+                        "type": 2,
+                        "image": ""
+                    },
+                    {
+                        "title": "Navigation equipment fitment",
+                        "desc": "Our technicians upgrading the communication and navigation system on one of our patrol boats.",
+                        "type": 2,
+                        "image": ""
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_10",
+        "icon": "images/new/cargo_gear.svg",
+        "title": "Cargo Gear Testing",
+        "img": "images/f10/Cargo-Gear_Stock.jpg",
+        "content": [{
+                "title": "CARGO GEAR SERVICES",
+                "desc": "SHM is well equipped with the infrastructure and technical expertise to inspect, test and endorse all lifting appliances and loose gears in the Indian Cargo Register, as per Dock Workers (Safety,Health,andWelfare) Regulations.",
+                "type": 1
+            },
+            {
+                "slides": [{
+                        "title": "Periodic Load Test",
+                        "desc": "When a lifting appliance fails, serious injury and death can occur. Therefore lifting appliances and loose gear should be load tested at set periods as required by national regulations.",
+                        "type": 2,
+                        "image": "images/f10/services-cargo-1.jpg"
+                    },
+                    {
+                        "title": "Container Lifting Crane",
+                        "desc": "Various national regulatory bodies require all ship lifting appliances to be thoroughly examined by a  competent  person  at least once every year.",
+                        "type": 2,
+                        "image": "images/f10/services-cargo-2.jpg"
+                    },
+                    {
+                        "title": "Gear Examination",
+                        "desc": "Loose gears such as hooks, blocks, chains, grab buckets, etc. should be thoroughly examined by a  competent person  at least once every year and load tested every five years along with major lifting appliances.",
+                        "type": 2,
+                        "image": "images/f10/Grab-Photograph.jpg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_11",
+        "icon": "images/new/ladder.svg",
+        "title": "Gangway and Accommodation Ladders",
+        "img": "images/f11/Gangway-Banner_Stock.jpg",
+        "content": [{
+                "title": "GANGWAY & ACCOMODATION LADDER TESTING",
+                "desc": "We at SHM have the infrastructure and technical expertise to inspect, service, and repair Gangways and Accomodation Ladders, including their associate winches and fittings, in accordance with SOLAS and manufacturers guidelines.",
+                "type": 1
+            },
+            {
+                "slides": [{
+                        "title": "Periodic Maintenance",
+                        "desc": "Gangways and accommodation ladders must be properly maintained and inspected at appropriate intervals, as required by SOLAS, and in accordance to the manufacturer's instructions.",
+                        "type": 2,
+                        "image": "images/f11/ladder-sidebar-1.png"
+                    },
+                    {
+                        "title": "Five-Yearly Operational Load Test",
+                        "desc": "At every five yearly survey, gangways and ladders should be operationally tested with the specified maximum operational load, where the load has to be applied as uniformly as possible.",
+                        "type": 2,
+                        "image": "images/f11/ladder-sidebar-2.jpg"
+                    },
+                    {
+                        "title": "Fittings & Ancillary Equipment Examination",
+                        "desc": "During the annual and five-yearly survey all fittings, davits, handholds, stanchions, winches etc. need to be properly examined.",
+                        "type": 2,
+                        "image": "images/f11/ladder-slider-3.jpg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    },
+    {
+        "id": "feature_12",
+        "icon": "images/new/ship.svg",
+        "title": "General Ship Repairs",
+        "img": "images/f12/Ship-Repairs_Stock.jpg",
+        "content": [{
+                "title": "GENERAL SHIP REPAIRS",
+                "desc": "Among the top ship repair companies in Mumbai, the SHM Group is one of the leading and trusted Ship Repair and Engineering Companies in Mumbai, also having locations all across the Indian coast. Our management and service cadres for ship repairs comprise of having qualified Master - Mariners, 1st Class Marine Engineers & Ex   Naval Officers with vast and diverse experience on regular merchant, offshore and M.O. D. Vessels. We have the expertise, infrastructure, and certifications to repair ships of all flags and classification societies in dry dock, wet basins, and afloat. With our Group Companies Homa Engineering Works and Sri Balaji Marine & Civil Engg. Works, we offer over five decades of expertise in repairing ships.",
+                "type": 1
+            },
+            {
+                "slides": [{
+                        "title": "Dry Docking Services",
+                        "desc": "We provide quick turnaround for any type of vessels.",
+                        "type": 2,
+                        "image": "images/f12/general-ship-repair-01.jpg"
+                    },
+                    {
+                        "title": "Mechanical Repairs",
+                        "desc": "Our team of expert engineers specialize in, and are not limited to: Pump, Motor, Valve Overhaul, Pipeline Fabrication & Overhaul, Steel Renewal, Hot & Cold Lagging, Accommodation Refurbishment, Compressor Overhaul, Heat Exchanger Servicing",
+                        "type": 2,
+                        "image": "images/f12/general-ship-repair-01.jpg"
+                    },
+                    {
+                        "title": "Engineering Services",
+                        "desc": "Empowered with cutting edge technology, we provide the following services to save costs and downtime: Shafting Removal, Seal Replacement, Engine, Gearbox Overhaul, Propeller Blade Repairs, Rudder, bush, bearing repair, Boiler Tube Replacement, Hydraulic System Repairs, Pneumatic System Repairs",
+                        "type": 2,
+                        "image": "images/f12/general-ship-repair-03.jpg"
+                    }
+                ],
+                "type": 3
+            }
+        ]
+    }
+]

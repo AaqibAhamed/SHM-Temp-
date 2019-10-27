@@ -1,0 +1,92 @@
+@import "./Vars.scss";
+.custom-btn-default {
+    margin-top: -1px;
+    border-color: $color-light-1;
+    background-color: transparent;
+    color: $color-primary;
+    font-weight: bold;
+    padding-right: 2.5em;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    line-height: 100%;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    white-space: normal;
+    padding: 0.75em 1em 0.65em 1em;
+    border-radius: 0;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-transition: all .3s 0s ease-in-out;
+    transition: all .3s 0s ease-in-out;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.custom-btn-default::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: .5em;
+    height: .5em;
+    margin-top: -.25em;
+    border: solid $color-light;
+    border-width: 2px 2px 0 0;
+    -webkit-transition: all .1s 0s ease-in-out;
+    transition: all .1s 0s ease-in-out;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    box-sizing: border-box;
+    right: 1.5em;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-color: $color-primary $color-primary transparent transparent;
+}
+
+.custom-btn-default:hover {
+    border-color: $color-primary !important;
+    z-index: 2;
+}
+
+.custom-btn-default:hover::after {
+    right: 1em;
+}
+
+.button-light {
+    color: $color-light;
+    border-color: $color-primary;
+}
+
+.button-light::after {
+    border-color: $color-light $color-light transparent transparent;
+}
+
+.button-border-light {
+    border-color: $color-light-1;
+}
+
+.button-border-light:hover {
+    border-color: $color-light !important;
+}
+
+.button-bg-primary {
+    background-color: $color-primary;
+}
+
+.button-bg-primary:hover {
+    background-color: $color-primary-dark;
+}
+
+.button-bg-primary-dark {
+    background-color: $color-primary-dark;
+}
+
+.button-bg-primary-dark:hover {
+    background-color: $color-primary-darker;
+}

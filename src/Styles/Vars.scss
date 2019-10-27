@@ -1,0 +1,66 @@
+$color-primary: #ef4c23;
+$primary: #ef4c23;
+$color-primary-dark: #d1431f;
+$color-primary-darker: #b1391b;
+$color-primary-dark-trans: rgba(239, 76, 35, 0.25);
+//$color-secondary: rgb(139, 64, 41);
+//$color-secondary-dark: rgb(90, 41, 12);
+$color-secondary: #ef4c23;
+$color-secondary-dark: #d1431f;
+$color-light-1: #ccc;
+$color-light-2: #eee;
+$color-light: white;
+$color-light-trans: rgba(255, 255, 255, 0.2);
+$color-dark: black;
+$color-dark-trans: rgba(0, 0, 0, 0.4);
+$color-dark-trans-1: rgba(0, 0, 0, 0.2);
+$color-dark-1: #222;
+$color-dark-2: #444;
+$padding-xs: 5px;
+$padding-s: 10px;
+$padding-m: 20px;
+$padding-l: 30px;
+$padding-xl: 40px;
+.color-primary {
+    color: $color-primary;
+}
+
+.color-primary-dark {
+    color: $color-primary-dark;
+}
+
+.color-secondary {
+    color: $color-secondary;
+}
+
+.bgcolor-primary {
+    background-color: $color-primary;
+}
+
+.bgcolor-secondary {
+    background-color: $color-secondary;
+}
+
+.bgcolor-light-1 {
+    background-color: $color-light-1
+}
+
+.bgcolor-light-2 {
+    background-color: $color-light-2
+}
+
+.hover-color-light-1:hover {
+    color: $color-light-1
+}
+
+.hover-color-light-2:hover {
+    color: $color-light-2
+}
+
+.color-light {
+    color: $color-light;
+}
+
+.border-light-1 {
+    border-color: $color-light-1 !important
+}

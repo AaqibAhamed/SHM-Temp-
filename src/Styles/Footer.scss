@@ -1,0 +1,76 @@
+@import "./Vars.scss";
+@import "./includes/padding.scss";
+.main-footer {
+    background-color: $color-light;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-logo {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+.footer-btn-1 {
+    font-size: 15px;
+    margin-top: -1px;
+    border-color: $color-light-1 !important;
+    background-color: transparent;
+    color: $color-primary;
+    font-weight: bold;
+    padding-right: 30px !important;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    line-height: 100%;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    white-space: normal;
+    padding: 0.75em 1em 0.65em 1em;
+    border-radius: 0;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-transition: all .3s 0s ease-in-out;
+    transition: all .3s 0s ease-in-out;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-btn-1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: .5em;
+    height: .5em;
+    margin-top: -.25em;
+    border: solid $color-light;
+    border-width: 2px 2px 0 0;
+    -webkit-transition: all .1s 0s ease-in-out;
+    transition: all .1s 0s ease-in-out;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    box-sizing: border-box;
+    right: 1.5em;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-color: $color-primary $color-primary transparent transparent;
+}
+
+.footer-btn-1:hover {
+    border-color: $color-primary !important;
+    z-index: 2;
+}
+
+.footer-btn-1:hover::after {
+    right: 1em;
+}

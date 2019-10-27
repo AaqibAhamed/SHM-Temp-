@@ -1,0 +1,41 @@
+@import "./Vars.scss";
+
+.about-container{
+    width: 100%;
+    .about-button{
+        height: 33.33%
+    }
+}
+
+.home-title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.about-btn {
+    width: auto;
+    padding-right: 50px;
+    margin-top: 5px;
+}
+
+#bg_about {
+    width: 100%
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-s1 {
+        padding: 40px 100px !important;
+    }
+    .about-img {
+        height: 200px !important
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about-s1 {
+        padding: 40px 20px !important;
+    }
+    .about-img {
+        display: none;
+    }
+}

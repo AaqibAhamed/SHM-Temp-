@@ -1,0 +1,29 @@
+{
+    "Name": "SHM SHIPCARE PVT LTD",
+    "SubTitle" : "SRI LANKA",
+    "Address":[
+        "#50, Kelani Ganga Mills Road,",
+        "Mattakkuliya, Colombo 15.",
+        "Sri Lanka."
+    ],
+    "Telephone": {
+        "text": "+94 112 524 053",
+        "href": "tel:+94 112 524 053"
+    },
+    "Email": {
+        "text": "colombo@shmgroup.com",
+        "href": "mailto:colombo@shmgroup.com"
+    },
+    "Social": [
+        {
+            "title":"Facebook",
+            "icon":"facebook",
+            "href":"#"
+        },
+        {
+            "title":"Instagram",
+            "icon":"instagram",
+            "href":"#"
+        }
+    ]
+}

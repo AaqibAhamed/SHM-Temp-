@@ -1,0 +1,6 @@
+.member-img {
+    transition: 500ms all;
+    &:hover {
+        transform: scale(1.2)
+    }
+}

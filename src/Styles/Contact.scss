@@ -1,0 +1,47 @@
+@import './Vars.scss';
+@import './includes/padding.scss';
+.contact-container {
+    padding: 100px 20vw !important;
+    background: rgb(212, 85, 0);
+    background: linear-gradient(180deg, $color-primary 0%, $color-light 100%);
+    form {
+        background-color: $color-light;
+        padding: 50px;
+        .active {
+            color: $color-primary !important
+        }
+    }
+    h1 {
+        margin-bottom: 50px
+    }
+}
+
+.redirect {
+    font-weight: bold;
+    padding: $padding-l !important;
+    padding-top: 100px !important;
+    text-align: center;
+}
+
+.btn-contact-button {
+    background-color: $color-primary !important;
+    color: $color-light !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .contact-container {
+        padding: 100px 10vw !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .contact-container {
+        padding: 50px 10vw !important;
+        form {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+}

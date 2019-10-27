@@ -1,0 +1,127 @@
+@import "./Vars.scss";
+@import "./includes/padding.scss";
+.feature-container .home-title {
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: black 0px 0px 5px;
+}
+
+.feature-link {
+    padding: 0;
+    margin: 0;
+}
+
+#bg_services {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    z-index: 0.2;
+}
+
+.home-feature {
+    padding: 0 !important;
+    background-color: rgba($color: $color-light, $alpha: 0.3);
+    border: 1px solid $color-dark-trans;
+    cursor: pointer;
+    transition: all 200ms;
+    -moz-animation: 200ms;
+    -webkit-animation: both 200ms;
+    border: none;
+    button {
+        background-color: rgba($color: #fff, $alpha: 0);
+        border: none;
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: bold;
+        transition: all 200ms;
+        text-shadow: 0 0 1px white;
+    }
+    svg {
+        width: 5vw;
+        height: 5vw;
+        transition: all 200ms;
+        -moz-animation: 200ms;
+        -webkit-animation: both 200ms;
+        margin-bottom: 10px;
+        image {
+            width: 5vw;
+            height: 5vw;
+        }
+    }
+    &:hover {
+        border: none;
+        background-color: $color-primary;
+        color: $color-light;
+        transform: scale(1.4);
+        z-index: 2;
+        svg {
+            filter: invert(1)
+        }
+        h4 {
+            font-weight: bold;
+            color: $color-light;
+            text-shadow: none;
+        }
+    }
+}
+
+.service-click {
+    border: none;
+    background-color: $color-primary;
+    color: $color-light;
+    transform: scale(1.5) !important;
+    z-index: 2;
+    svg {
+        filter: invert(1)
+    }
+    h4 {
+        font-weight: bold;
+        color: $color-light;
+    }
+}
+
+.feature-container {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    .feature-container {
+        padding: 50px !important;
+    }
+    #bg_services {
+        display: none;
+    }
+    .home-feature {
+        background-color: $color-light;
+        margin-bottom: $padding-xs
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .feature-container {
+        padding: 40px 20px !important;
+    }
+    .home-feature {
+        padding: 20px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        svg {
+            width: 10vw;
+            height: 10vw;
+            image {
+                width: 10vw;
+                height: 10vw;
+            }
+        }
+        &>h3 {
+            width: 70vw;
+            vertical-align: middle;
+        }
+        &:hover {
+            transform: none;
+        }
+    }
+}

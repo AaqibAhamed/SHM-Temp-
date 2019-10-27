@@ -1,0 +1,67 @@
+[
+    {
+        "name": "SAIFUDDIN HAJEE",
+        "img": "images/team/saifuddin-hajee.jpg",
+        "position": "Chairman"
+    },
+    {
+        "name": "ALIASGAR HAJEE",
+        "img": "images/team/aliasgar.jpg",
+        "position": "Managing Partner"
+    },
+    {
+        "name": "TAHER HAJEE",
+        "img": "images/team/taher-hajee.jpg",
+        "position": "Sr.Vice President"
+    },
+    {
+        "name": "Huzefa Rashid",
+        "img": "images/team/huzaifa.png",
+        "position": "Director - SHM Shipcare Sdn. Bhd., Malaysia"
+    },
+    {
+        "name": "Qusai Huzaifa",
+        "img": "images/team/qusai.jpg",
+        "position": "Director - SHM Shipcare (PVT Ltd., Sri Lanka"
+    },
+    {
+        "name": "N. C. CHACKO",
+        "img": "images/team/n-c-chacko.jpg",
+        "position": "Sr. Vice President - Eastern India & South East Asia Region"
+    },
+    {
+        "name": "KRISHANAN VAIKUNTHAN",
+        "img": "images/team/vaikunthan.jpg",
+        "position": "VP & Principal Engineer - Kochi, Mangalore, and Sri Lanka Region"
+    },
+    {
+        "name": "MOHAMMED HAJEE",
+        "img": "images/team/mohammed-hajee.jpg",
+        "position": "VP - International Business, Technology, and Communications"
+    },
+    {
+        "name": "DASHARATH GOPU",
+        "img": "images/team/dasharath-gopu.jpg",
+        "position": "VP - FRP Boat Building"
+    },
+    {
+        "name": "C Murugadoss",
+        "img": "images/team/c_murgadass.jpg",
+        "position": "Vice President - Chennai Region"
+    },
+    {
+        "name": "Jivram Mishra",
+        "img": "images/team/jivram-mishra.jpg",
+        "position": "GM - Ship Repairs"
+    },
+    {
+        "name": "Rajiv Deshpande",
+        "img": "images/team/rajiv-deshpande-.jpg",
+        "position": "GM - Special Projects"
+    },
+    {
+        "name": "Arghya Mandal",
+        "img": "images/team/arghya.png",
+        "position": "GM - Kolkata and Paradeep Region"
+    }
+]

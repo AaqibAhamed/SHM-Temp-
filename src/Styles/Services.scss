@@ -1,0 +1,94 @@
+@import "./Vars.scss";
+@import "./includes/padding.scss";
+.services-container {
+    .service-container {
+        position: relative;
+        background-color: rgba($color: $color-primary, $alpha: 0.2);
+        .service {
+            margin-bottom: 30px;
+            color: $color-dark;
+            position: relative;
+            .inner-service {
+                cursor: pointer;
+                transition: height 0.5s ease-out;
+                padding: $padding-m;
+                height: 300px;
+                overflow: hidden;
+                div {
+                    width: 100%;
+                    position: relative;
+                    height: 150px;
+                    div {
+                        position: absolute;
+                        background-color: white;
+                        border-radius: 200px;
+                        height: 150px;
+                        width: 150px;
+                        left: 50%;
+                        transform: translateX(-75px);
+                        svg {
+                            position: absolute;
+                            height: 150px;
+                            width: 150px;
+                            transform: translate(-50px, 25px);
+                            image {
+                                margin-left: auto;
+                                height: 100px;
+                            }
+                        }
+                    }
+                }
+                h4 {
+                    margin-top: 5px;
+                }
+                p {
+                    font-size: 1em;
+                }
+            }
+            &::after {
+                content: "See More";
+                position: absolute;
+                left: 15px;
+                right: 15px;
+                bottom: 0;
+                height: 25%;
+                background: rgb(0, 0, 0);
+                background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0) 100%);
+                padding-top: 11%;
+                color: black;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        }
+    }
+    .dark {
+        background-color: rgba($color: $color-primary, $alpha: 0.3);
+        &:hover {
+            background-color: rgba($color: $color-primary, $alpha: 0.5);
+        }
+    }
+}
+
+.err-container {
+    height: 70vh;
+    position: relative;
+    p {
+        position: absolute;
+        width: 100vw;
+        top: 50%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .p-responsive {
+        font-size: 4.5vw;
+    }
+    .service {
+        &::after {
+            padding-top: 15%;
+        }
+    }
+}
