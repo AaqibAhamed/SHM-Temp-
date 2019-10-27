@@ -68,40 +68,43 @@ export default class SliderSection extends Component{
         for(const [index, slide] of slides.entries()){
             slider.push(
                 <MDBCarouselItem key={index} itemId={index+1}>
-                    <MDBView hover zoom>
+                    <MDBView>
                     <img
                         className="d-block slide-img"
                         src={slide.img}
                         alt={slide.text}
                     />
                     </MDBView>
-                    <MDBCarouselCaption>
-                        <h3 className="h3-responsive text-uppercase text-shadow">
-                            <strong>{slide.text}</strong>
-                        </h3>
-                    </MDBCarouselCaption>
                 </MDBCarouselItem>
             )
         }
 
+        let imageStyles = {
+            padding:0,
+            backgroundImage: 'url('+slides[0].img+')',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover', 
+            height:'100vh'
+        };
+
         return (
             <MDBRow>
-                <MDBCol md="6" className="text-center padding-7">
+                {/* <MDBCol md="6" className="text-center padding-7">
                     <img src={DataProvider.Logo} className="img home-logo-1" alt={this.state.Company.Name} />
                     <h5 className="pt-4 padding-lr-5">“Enabling freedom at sea” stands for SHM’s commitment of offering our clients peace of mind at sea, offshore and onshore. </h5>
-                </MDBCol>
-                <MDBCol md="6" style={{padding:0}}>
-                    <MDBCarousel
+                </MDBCol> */}
+                <MDBCol md="12" style={imageStyles} class="slide-img">
+                    {/* <MDBCarousel
                         activeItem={1}
                         length={slides.length}
-                        showControls={false}
-                        showIndicators={true}
+                        showControls={true}
+                        showIndicators={false}
                         className="z-depth-1"
                     >
                         <MDBCarouselInner>
                             { slider }
                         </MDBCarouselInner>
-                </MDBCarousel>
+                    </MDBCarousel> */}
                 </MDBCol>
             </MDBRow>
         );
