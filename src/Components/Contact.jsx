@@ -62,57 +62,59 @@ class Contact extends Component{
         if(!this.state.success){
             return (
                 <div className="container-fluid contact-container">
-                    <SEO 
-                        title={this.state.loaded?this.state.seoData.contact.title:"Contact Us"}
-                        desc={this.state.loaded?this.state.seoData.contact.desc:'Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details.'}
-                        page={"/contact"}
-                    />
-                    <form onSubmit={(event)=>this.sendContact(event)}>
-                        <h1 className="display-4 text-center">Write to us</h1>
-                        <div className="grey-text">
-                        <MDBInput
-                            label="Your name"
-                            icon="user"
-                            group
-                            type="text"
-                            validate
-                            error="wrong"
-                            success="right"
-                            name="name"
-                            value={this.state.name}
-                            onInput={this.handleInput}
-                            required
+                    <div className="top-space">
+                        <SEO 
+                            title={this.state.loaded?this.state.seoData.contact.title:"Contact Us"}
+                            desc={this.state.loaded?this.state.seoData.contact.desc:'Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details.'}
+                            page={"/contact"}
                         />
-                        <MDBInput
-                            label="Your email"
-                            icon="envelope"
-                            group
-                            type="email"
-                            validate
-                            error="wrong"
-                            success="right"
-                            name="email"
-                            value={this.state.email}
-                            onInput={this.handleInput}
-                            required
-                        />
-                        <MDBInput
-                            type="textarea"
-                            rows="2"
-                            label="Your message"
-                            icon="pencil-alt"
-                            name="message"
-                            value={this.state.message}
-                            onInput={this.handleInput}
-                            required
-                        />
-                        </div>
-                        <div className="text-center">
-                        <MDBBtn color="contact-button" className="container-fluid" type="submit">
-                            Send <MDBIcon far icon="paper-plane" className="ml-1" />
-                        </MDBBtn>
-                        </div>
-                    </form>
+                        <form onSubmit={(event)=>this.sendContact(event)}>
+                            <h1 className="display-4 text-center">Write to us</h1>
+                            <div className="grey-text">
+                            <MDBInput
+                                label="Your name"
+                                icon="user"
+                                group
+                                type="text"
+                                validate
+                                error="wrong"
+                                success="right"
+                                name="name"
+                                value={this.state.name}
+                                onInput={this.handleInput}
+                                required
+                            />
+                            <MDBInput
+                                label="Your email"
+                                icon="envelope"
+                                group
+                                type="email"
+                                validate
+                                error="wrong"
+                                success="right"
+                                name="email"
+                                value={this.state.email}
+                                onInput={this.handleInput}
+                                required
+                            />
+                            <MDBInput
+                                type="textarea"
+                                rows="2"
+                                label="Your message"
+                                icon="pencil-alt"
+                                name="message"
+                                value={this.state.message}
+                                onInput={this.handleInput}
+                                required
+                            />
+                            </div>
+                            <div className="text-center">
+                            <MDBBtn color="contact-button" className="container-fluid" type="submit">
+                                Send <MDBIcon far icon="paper-plane" className="ml-1" />
+                            </MDBBtn>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             );
         }else{
