@@ -37,7 +37,7 @@ export default class OurTeam extends Component{
         this.state.TeamSource.forEach((member,i)=>{
             teamDisplay.push(
                 <MDBCol key={i} md="3" className="mb-md-0 mb-5 pb-4">
-                    <img
+                    {member.img?<img
                         src={"/content/"+member.img}
                         className="rounded z-depth-1-half img-fluid member-img"
                         alt={member.name}
@@ -47,11 +47,12 @@ export default class OurTeam extends Component{
                         onMouseLeave={evt=>{
                             evt.currentTarget.classList.remove(["zoom","z-depth-2"])
                         }}
-                    />
-                    <h4 className="font-weight-bold dark-grey-text my-4">
+                    />:""}
+                    <h4 className="font-weight-bold dark-grey-text mt-4">
                         {member.name}
                     </h4>
-                    <h6 className="text-uppercase grey-text mb-3">{member.position}</h6>
+                    <h6 className="text-uppercase grey-text">{member.position}</h6>
+                    {member.email?<a href={"mailto:"+member.email}><h6>{member.email}</h6></a>:""}
                 </MDBCol>
             );
         })
