@@ -6,7 +6,7 @@ $json = file_get_contents('php://input');
 $data = json_decode($json);
 
 if($data->pass == 93724918){
-    $to_email = 'sachithrukshanmail@gmail.com';
+    $to_email = 'colombo@shmgroup.com';
     $name = $data->name;
     $email = $data->email;
     $message = $data->message.'<br/>name:'.$name.'<br/>email:<a href="mailto:'.$email.'">'.$email.'</a><br/>';

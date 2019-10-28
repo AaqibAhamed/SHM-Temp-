@@ -89,7 +89,7 @@ export default class Footer extends Component{
                                 {this.state.address}
                                 {this.state.Company.Telephone?this.state.Company.Telephone.map((tel,i)=><p key={i} className="p-2 color-primary-dark m-0">
                                     <MDBIcon icon="phone" />
-                                    <strong><a href={tel.href} className="text-dark pl-2">{tel.text}</a></strong>
+                                    <strong><a href={tel.href} className="text-dark pl-2">{tel.type?tel.type:tel.text}</a></strong>
                                 </p>):''}
                                 {this.state.Company.Email?<p className="p-2 color-primary-dark">
                                     <MDBIcon icon="envelope" />
