@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Link} from 'react-router-dom';
 import "../../Styles/Footer.scss";
 import {MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon} from "mdbreact";
+import FloatingBtn from "./FloatingBtn";
 
 import Button from "./Button";
 import DataProvider from "../Providers/DataProvider";
@@ -116,6 +117,8 @@ export default class Footer extends Component{
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
+                <FloatingBtn icon="phone-alt" float="left" href={this.state.Company.Telephone[0].href} />
+                <FloatingBtn icon="envelope" float="right" href={this.state.Company.Email.href} />
             </MDBFooter>
         );
     }
