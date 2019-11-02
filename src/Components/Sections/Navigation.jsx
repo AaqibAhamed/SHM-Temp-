@@ -59,7 +59,7 @@ export default class Navigation extends Component {
 
         NavigationMenu[2].children = await NavigationMenu[2].children;
         Company = await Company;
-
+        
         this.setState({
             NavigationMenu:NavigationMenu,
             Company:Company,
