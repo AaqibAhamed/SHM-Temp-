@@ -63,14 +63,15 @@ class FeatureContent{
     }
     
     static mapJson = (featureData:any):FeatureContent => {
+        let type = ContentTypes.getType(featureData.type.type);
         if(featureData.image)
             return new FeatureContent(
                 featureData.title,
                 featureData.desc,
-                ContentTypes.getType(featureData.type),
+                type,
                 featureData.image
             );
-        else if(ContentTypes.getType(featureData.type)===ContentTypes.SLIDE)
+        else if(type===ContentTypes.SLIDE)
             return new FeatureContent(
                 "","",ContentTypes.SLIDE,"",
                 featureData.slides.map((slide: any)=>FeatureContent.mapJson(slide))
@@ -79,7 +80,7 @@ class FeatureContent{
             return new FeatureContent(
                 featureData.title,
                 featureData.desc,
-                ContentTypes.getType(featureData.type)
+                type
             );
     }
 

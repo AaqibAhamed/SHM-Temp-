@@ -1,18 +1,52 @@
 import { Feature } from "../Models/Feature.tsx";
+import DBProvider from "./DBProvider";
 
 var logo = "/content/images/logo.png";
 
+var db = new DBProvider();
+
 class DataProvider {
-    static FeatureSource = (async() => (await fetch('/api/features.json').then(r => r.json()).catch(err => {
-        console.log(err)
+    static FeatureSource = (async() => (await new Promise((res,rej)=>{
+        db.getDB().ref(DBProvider.TABLE_FEATURES).on('value', snapshot => {
+            let data = snapshot.val();
+            try {
+                let values = Object.values(data);
+                res(values)
+            } catch (_) {
+                rej('err');
+            }
+        }, _=>{
+            rej('err');
+        })
     })).map(featureData => {
         return Feature.mapJson(featureData);
     }))();
-    static TeamSource = fetch('/api/team.json').then(r => r.json()).catch(err => {
-        console.log(err)
-    });
-    static SEOSource = fetch('/api/seo.json').then(r => r.json()).catch(err => {
-        console.log(err)
+    static TeamSource = new Promise((res,rej)=>{
+        db.getDB().ref(DBProvider.TABLE_TEAM).on('value', snapshot => {
+            let data = snapshot.val();
+            try {
+                let values = Object.values(data);
+                res(values)
+            } catch (_) {
+                rej('err');
+            }
+        }, _=>{
+            rej('err');
+        })
+    })
+    static SEOSource = new Promise((res,rej)=>{
+        db.getDB().ref(DBProvider.TABLE_SEO).on('value', snapshot => {
+            let data = snapshot.val();
+            try {
+                let values = Object.values(data);
+                let newData = values[0];
+                res(newData)
+            } catch (_) {
+                rej('err');
+            }
+        }, _=>{
+            rej('err');
+        })
     });
     static NavMenu = [{
             "title": "Home",
@@ -52,9 +86,20 @@ class DataProvider {
             "link": "/contact"
         }
     ];
-    static Company = fetch('/api/company.json').then(r => r.json()).catch(err => {
-        console.log(err)
-    });
+    static Company = new Promise((res,rej)=>{
+        db.getDB().ref(DBProvider.TABLE_COMPANY).on('value', snapshot => {
+            let data = snapshot.val();
+            try {
+                let values = Object.values(data);
+                let newData = values[0];
+                res(newData)
+            } catch (_) {
+                rej('err');
+            }
+        }, _=>{
+            rej('err');
+        })
+    })
 }
 
 export const FeatureSource = DataProvider.FeatureSource;

@@ -17,11 +17,11 @@ class Content extends Component {
             return <Redirect to={this.state.next} />;
         }
         let type = this.content.type;
-        return ( <MDBContainer className={(type===ContentTypes.PRIMARY?"grey lighten-2":"")+" p-4 mt-1 mb-2 relative"}>
+        return ( <MDBContainer className={(type===ContentTypes.SIMPLE?"grey lighten-2":"")+" p-4 mt-1 mb-2 relative"}>
             <h3 className="color-primary h3-responsive">{this.content.title}</h3>
             
             {this.content.desc.split("<br/>").map((par,i) => <p key={i} className="text-justify pt-2 p-responsive">{par}</p>)}
-            {type===ContentTypes.PRIMARY?
+            {type===ContentTypes.SIMPLE?
                 <p className="text-right mb-n2"><MDBBtn color="deep-orange" size="sm" onClick={()=>this.setState({
                     click:true,
                     next:"/contact"
