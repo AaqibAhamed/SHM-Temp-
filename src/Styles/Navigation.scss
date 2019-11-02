@@ -74,9 +74,34 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .site-navbar {
-        height: 100px
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .site-navbar {
+        height: 100px;
+        background-color: $color-light;
+    }
+    .header__navbar-group {
+        position: relative;
+    }
+    .site-navbar .hamburger-1,
+    .site-navbar .hamburger-2,
+    .site-navbar .hamburger-3 {
+        background: $color-dark !important;
+    }
+
+    .site-navbar .navbar-trigger__text{
+        color: $color-dark;
+    }
+    .site-logo--text-home {
+        width: 75% !important;
+    }
+    .site-logo-img {
+        height: auto;
     }
 }
 
