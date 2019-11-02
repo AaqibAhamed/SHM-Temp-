@@ -36,7 +36,7 @@ export default class OurTeam extends Component{
         teamDisplay = [];
         this.state.TeamSource.forEach((member,i)=>{
             teamDisplay.push(
-                <MDBCol key={i} md="3" className="mb-md-0 mb-5 pb-4">
+                <MDBCol key={i} md="4" sm="6" xs="12" lg="3" className="mb-md-0 mb-5 pb-4">
                     {member.img?<img
                         src={"/content/"+member.img}
                         className="rounded z-depth-1-half img-fluid member-img"
@@ -48,16 +48,16 @@ export default class OurTeam extends Component{
                             evt.currentTarget.classList.remove(["zoom","z-depth-2"])
                         }}
                     />:""}
-                    <h4 className="font-weight-bold dark-grey-text mt-4">
+                    <h5 className="font-weight-bold dark-grey-text mt-4 h5-responsive">
                         {member.name}
-                    </h4>
-                    <h6 className="text-uppercase grey-text">{member.position}</h6>
+                    </h5>
+                    <h6 className="text-uppercase grey-text h6-responsive">{member.position}</h6>
                     {member.email?<a href={"mailto:"+member.email}><h6>{member.email}</h6></a>:""}
                 </MDBCol>
             );
         })
         return (
-            <div className="container-fluid">
+            <div className="container-fluid team-container">
                 <SEO 
                     title={!this.state.loading?this.state.seoData.team.title:"Our Team"} 
                     desc={!this.state.loading?this.state.seoData.team.desc:"Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."}

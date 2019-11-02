@@ -1,6 +1,8 @@
-.member-img {
-    transition: 500ms all;
-    &:hover {
-        transform: scale(1.2)
+.team-container{
+    .member-img {
+        transition: 500ms all;
+        &:hover {
+            transform: scale(1.2)
+        }
     }
 }
