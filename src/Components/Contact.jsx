@@ -4,6 +4,7 @@ import SEO from './Sections/SEO';
 import '../Styles/Contact.scss';
 import { Redirect } from "react-router-dom";
 import { SEO as source } from "./Providers/DataProvider";
+import DBProvider from "./Providers/DBProvider";
 
 class Contact extends Component{
     constructor() {
@@ -30,6 +31,12 @@ class Contact extends Component{
     sendContact = async (e)=>{
         e.preventDefault();
         let {name, email, message} = this.state;
+
+        new DBProvider().getDB().ref(DBProvider.TABLE_CONTACT).push().set({
+            "name":name,
+            "email":email,
+            "message":message
+        });
 
         await fetch('/sendmail.php',{
             method:'post',
