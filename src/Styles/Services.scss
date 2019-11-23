@@ -44,7 +44,7 @@
                 p {
                     font-size: 1em;
                 }
-            }
+                
             &::after {
                 content: "See More";
                 position: absolute;
@@ -58,6 +58,7 @@
                 color: black;
                 font-size: 17px;
                 font-weight: bold;
+            }
             }
         }
     }

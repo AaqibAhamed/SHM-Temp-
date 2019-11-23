@@ -11,15 +11,6 @@
     margin: 0;
 }
 
-#bg_services {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: auto;
-    z-index: 0.2;
-}
-
 .home-feature {
     padding: 0 !important;
     background-color: rgba($color: $color-light, $alpha: 0.3);
@@ -53,16 +44,16 @@
     }
     &:hover {
         border: none;
-        background-color: $color-primary;
-        color: $color-light;
+        background-color: $color-light;
+        color: $color-dark;
         transform: scale(1.4);
         z-index: 2;
         svg {
-            filter: invert(1)
+            filter: invert(0)
         }
         h4 {
             font-weight: bold;
-            color: $color-light;
+            color: $color-dark;
             text-shadow: none;
         }
     }

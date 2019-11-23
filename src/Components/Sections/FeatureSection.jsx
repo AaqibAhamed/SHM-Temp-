@@ -4,8 +4,6 @@ import {MDBCol, MDBRow} from "mdbreact";
 import "../../Styles/FeatureSection.scss";
 import {FeatureSource} from "../Providers/DataProvider";
 
-var bg_video_mp4 = "/content/videos/CruiseShip.mp4";
-
 let features = [];
 
 class FeatureSection extends Component {
@@ -50,13 +48,6 @@ class FeatureSection extends Component {
 
         return (
             <MDBRow className="feature-container bgcolor-secondary position-relative" id="services">
-                <video id="bg_services" playsInline autoPlay muted loop>
-                    <source
-                        key="1"
-                        src={bg_video_mp4}
-                        type="video/mp4"
-                    />
-                </video>
                 <MDBCol md="12" className="text-center padding-11" id="content_services">
                     <h2 className="text-uppercase clearfix home-title color-light pb-5 position-relative">Our
                         Services</h2>
