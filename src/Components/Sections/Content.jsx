@@ -22,9 +22,9 @@ class Content extends Component {
             
             {this.content.desc.split("<br/>").map((par,i) => <p key={i} className="text-justify pt-2 p-responsive">{par}</p>)}
             {type===ContentTypes.SIMPLE?
-                <p className="text-right mb-n2"><MDBBtn color="deep-orange" size="sm" onClick={()=>this.setState({
+                <p className="text-right mb-n2"><MDBBtn color="deep-orange" size="sm" onClick={()=>this.content.action? (window.location.href = this.content.action.link) : this.setState({
                     click:true,
-                    next:this.content.action?this.content.action.link:"/contact"
+                    next:"/contact"
                 })}>{this.content.action?this.content.action.text:'SEND ENQUIRY'}</MDBBtn></p>
             :""}
             {this.content.extra?(this.content.extra.map(cont => <Content content={cont} />)):""}
