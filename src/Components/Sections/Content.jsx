@@ -24,8 +24,8 @@ class Content extends Component {
             {type===ContentTypes.SIMPLE?
                 <p className="text-right mb-n2"><MDBBtn color="deep-orange" size="sm" onClick={()=>this.setState({
                     click:true,
-                    next:"/contact"
-                })}>SEND ENQUIRY</MDBBtn></p>
+                    next:this.content.action?this.content.action.link:"/contact"
+                })}>{this.content.action?this.content.action.text:'SEND ENQUIRY'}</MDBBtn></p>
             :""}
             {this.content.extra?(this.content.extra.map(cont => <Content content={cont} />)):""}
         </MDBContainer> );

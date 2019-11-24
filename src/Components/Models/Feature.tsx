@@ -46,24 +46,27 @@ class FeatureContent{
     type:ContentTypes;
     image?:string;
     slides?:FeatureContent[];
+    action?:{};
 
 	constructor(
         title:string,
         desc:string,
         type:ContentTypes,
         image?:string,
-        slides?:FeatureContent[]
+        slides?:FeatureContent[],
+        action?:{}
     ) {
         this.title=title;
         this.desc=desc;
         this.type=type;
-        this.type=type;
         this.image=image;
         this.slides=slides;
+        this.action=action;
     }
     
     static mapJson = (featureData:any):FeatureContent => {
         let type = ContentTypes.getType(featureData.type.type);
+        let action = featureData.action?featureData.action:undefined;
         if(featureData.image)
             return new FeatureContent(
                 featureData.title,
@@ -80,7 +83,10 @@ class FeatureContent{
             return new FeatureContent(
                 featureData.title,
                 featureData.desc,
-                type
+                type,
+                undefined,
+                undefined,
+                action
             );
     }
 
