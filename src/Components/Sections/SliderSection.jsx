@@ -50,7 +50,7 @@ export default class SliderSection extends Component{
             <ScreenSize>
                 { isMobile => (
                     <MDBRow>
-                    <MDBCol md="12" style={isMobile ? imageStyles : {}} className="slide-img">
+                    <MDBCol md="12" style={isMobile ? imageStyles : {padding:0, height:'100vh'}} className="slide-img">
                         <video id="bg_services" playsInline autoPlay muted loop >
                             <source
                                 key="1"
