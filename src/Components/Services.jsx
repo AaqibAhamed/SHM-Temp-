@@ -34,7 +34,15 @@ class Services extends Component{
 
     render(){
         if(this.state.loading){
-            return <div className="err-container"><p>Service Loading</p></div>;
+            return (
+                <div className="err-container">
+                    <div>
+                        <div className="spinner-border" role="status">
+                            <span className="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            );
         }
         if(this.state.click){
             this.setState({
@@ -84,12 +92,12 @@ class Services extends Component{
                 {params.serviceId?
                 <SEO 
                     title={service.title + " " + (!this.state.loading?this.state.seoData.service.title:"Service")}
-                    desc={!this.state.loading?(service.desc?service.desc:this.state.seoData.service.desc):"Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."}
+                    desc={!this.state.loading?(service.desc?service.desc:this.state.seoData.service.desc):null}
                     page={"/services/"+service.id}
                 />:
                 <SEO 
                     title={!this.state.loading?this.state.seoData.services.title:"Services"}
-                    desc={!this.state.loading?this.state.seoData.services.desc:"Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."}
+                    desc={!this.state.loading?this.state.seoData.services.desc:null}
                     page="/services/"
                 />}
                 {params.serviceId?<Banner title="Services" subtitle={service.title} image={service.img?"/content/"+service.img:bannerImage}/>:<Banner title="Services" image={bannerImage}/>}

@@ -7,6 +7,9 @@ import "../../Styles/SliderSection.scss";
 
 import DataProvider from '../Providers/DataProvider';
 
+import { ScreenSize } from '../Providers/FunctionProvider'
+
+
 export default class SliderSection extends Component{
     constructor(props){
         super(props);
@@ -34,6 +37,7 @@ export default class SliderSection extends Component{
             return <div></div>;
         }
 
+
         let imageStyles = {
             padding:0,
             backgroundImage: 'url('+bg_img+')',
@@ -43,17 +47,21 @@ export default class SliderSection extends Component{
         };
 
         return (
-            <MDBRow>
-                <MDBCol md="12" style={imageStyles} className="slide-img">
-                    <video id="bg_services" playsInline autoPlay muted loop >
-                        <source
-                            key="1"
-                            src={bg_video_mp4}
-                            type="video/mp4"
-                        />
-                    </video>
-                </MDBCol>
-            </MDBRow>
+            <ScreenSize>
+                { isMobile => (
+                    <MDBRow>
+                    <MDBCol md="12" style={isMobile ? imageStyles : {}} className="slide-img">
+                        <video id="bg_services" playsInline autoPlay muted loop >
+                            <source
+                                key="1"
+                                src={bg_video_mp4}
+                                type="video/mp4"
+                            />
+                        </video>
+                    </MDBCol>
+                </MDBRow>
+                ) }
+            </ScreenSize>
         );
     }
 }

@@ -58,12 +58,12 @@ class DataProvider {
             "link": "/about",
             "children": [
                 {
-                    "title": "Our Team",
-                    "link": "/our-team",
-                },
-                {
                     "title": "Vision & Mission",
                     "href": "/about/#vision",
+                },
+                {
+                    "title": "Our Team",
+                    "link": "/our-team",
                 },
             ]
         },

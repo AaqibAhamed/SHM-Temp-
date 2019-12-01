@@ -25,7 +25,7 @@ export default class SEO extends Component{
     render(){
         
         let {title, desc, page} = this.props
-        let sitename = 'SHM Group';
+        let sitename = 'SHM Sri Lanka';
         let seperator = '-';
 
         if(this.state.loaded){

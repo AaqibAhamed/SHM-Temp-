@@ -72,7 +72,7 @@ class Contact extends Component{
                     <div className="top-space">
                         <SEO 
                             title={this.state.loaded?this.state.seoData.contact.title:"Contact Us"}
-                            desc={this.state.loaded?this.state.seoData.contact.desc:'Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details.'}
+                            desc={this.state.loaded?this.state.seoData.contact.desc:null}
                             page={"/contact"}
                         />
                         <form onSubmit={(event)=>this.sendContact(event)}>

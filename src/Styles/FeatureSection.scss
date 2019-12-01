@@ -44,16 +44,16 @@
     }
     &:hover {
         border: none;
-        background-color: $color-light;
-        color: $color-dark;
-        transform: scale(1.4);
+        background-color: $color-primary-darker;
+        color: $color-light;
+        transform: scale(1.2);
         z-index: 2;
         svg {
-            filter: invert(0)
+            filter: invert(1)
         }
         h4 {
             font-weight: bold;
-            color: $color-dark;
+            color: $color-light;
             text-shadow: none;
         }
     }

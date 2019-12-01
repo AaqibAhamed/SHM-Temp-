@@ -33,7 +33,7 @@ export default class About extends Component{
             <div className="container-fluid">
                 <SEO 
                     title={this.state.loaded?this.state.data.about.title:"About"} 
-                    desc={this.state.loaded?this.state.data.about.desc:"Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."}
+                    desc={this.state.loaded?this.state.data.about.desc:null}
                     page="/about/"
                 />
                 <Banner title="About" subtitle="Know More About Us" image={bannerImage} video={bg_video} />

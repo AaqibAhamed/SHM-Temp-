@@ -73,7 +73,7 @@
 .err-container {
     height: 70vh;
     position: relative;
-    p {
+    &>div {
         position: absolute;
         width: 100vw;
         top: 50%;

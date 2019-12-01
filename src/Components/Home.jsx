@@ -29,7 +29,7 @@ export default class Home extends Component{
             <div className="container-fluid">
                 <SEO 
                     title={this.state.loaded?this.state.data.home.title:"Boat Manufacturers and Ship Chandlers in Sri Lanka"} 
-                    desc={this.state.loaded?this.state.data.home.desc:"Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."}
+                    desc={this.state.loaded?this.state.data.home.desc:null}
                     page="/"
                 />
                 <SliderSection/>

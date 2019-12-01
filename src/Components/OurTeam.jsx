@@ -4,8 +4,10 @@ import Banner from './Sections/Banner';
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody } from 'mdbreact';
 import '../Styles/OurTeam.scss';
 import DataProvider from './Providers/DataProvider';
+import { ScreenSize } from './Providers/FunctionProvider';
 
-var bannerImage = '/content/images/banner.jpg';
+var bannerImage = '/content/images/team-banner.jpg';
+var bannerImageMobile = '/content/images/team-mbanner.jpg';
 
 var teamDisplay = [];
 
@@ -60,10 +62,14 @@ export default class OurTeam extends Component{
             <div className="container-fluid team-container">
                 <SEO 
                     title={!this.state.loading?this.state.seoData.team.title:"Our Team"} 
-                    desc={!this.state.loading?this.state.seoData.team.desc:"Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."}
+                    desc={!this.state.loading?this.state.seoData.team.desc:null}
                     page="/our-team/"
                 />
-                <Banner title="About" subtitle="Our Team" image={bannerImage} />
+                <ScreenSize>
+                    { isMobile => (
+                        <Banner title="About" subtitle="Our Team" image={isMobile ? bannerImage : bannerImageMobile} />
+                    ) }
+                </ScreenSize>
                 <MDBCard className="my-5 px-1 pb-5 text-center">
                     <MDBCardBody>
                     <h2 className="h1-responsive font-weight-bold my-5">

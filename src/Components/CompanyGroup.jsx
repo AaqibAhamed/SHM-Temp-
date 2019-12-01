@@ -47,7 +47,7 @@ export default class About extends Component{
             <div className="container-fluid">
                 <SEO 
                     title="Our Group Of Companies" 
-                    desc="Looking for best Boat Manufactures & Ship Chandler in India.SHM Group Manufacture,supply & service various types of boats in India.Click for more details."
+                    desc=""
                     page="/our-group-of-companies/"
                 />
                 <Banner title="About" subtitle="Our Group of Companies" image={bannerImage} />
