@@ -84,7 +84,7 @@ export default class Footer extends Component{
                     <MDBRow>
                         <MDBCol lg="4" md="5" sm="12" className="pt-5">
                             <h5 className="text-uppercase color-primary pb-2">Contact Us</h5>
-                            <div className="clearfix text-dark">
+                            <div className="clearfix text-dark text-left">
                                 <strong>{this.state.Company.Name}</strong><br/>
                                 {this.state.Company.SubTitle} <br/>
                                 {this.state.address}
