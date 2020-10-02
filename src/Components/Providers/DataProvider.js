@@ -6,7 +6,7 @@ var logo = "/content/images/logo.png";
 var db = new DBProvider();
 
 class DataProvider {
-    static FeatureSource = (async() => (await new Promise((res,rej)=>{
+    static FeatureSource = (async() => (await new Promise((res, rej) => {
         db.getDB().ref(DBProvider.TABLE_FEATURES).on('value', snapshot => {
             let data = snapshot.val();
             try {
@@ -15,13 +15,13 @@ class DataProvider {
             } catch (_) {
                 rej('err');
             }
-        }, _=>{
+        }, _ => {
             rej('err');
         })
     })).map(featureData => {
         return Feature.mapJson(featureData);
     }))();
-    static TeamSource = new Promise((res,rej)=>{
+    static TeamSource = new Promise((res, rej) => {
         db.getDB().ref(DBProvider.TABLE_TEAM).on('value', snapshot => {
             let data = snapshot.val();
             try {
@@ -30,11 +30,11 @@ class DataProvider {
             } catch (_) {
                 rej('err');
             }
-        }, _=>{
+        }, _ => {
             rej('err');
         })
     })
-    static SEOSource = new Promise((res,rej)=>{
+    static SEOSource = new Promise((res, rej) => {
         db.getDB().ref(DBProvider.TABLE_SEO).on('value', snapshot => {
             let data = snapshot.val();
             try {
@@ -44,20 +44,19 @@ class DataProvider {
             } catch (_) {
                 rej('err');
             }
-        }, _=>{
+        }, _ => {
             rej('err');
         })
     });
     static NavMenu = [{
             "title": "Home",
             "link": "/",
-            "hidden": true
+            "hidden": false
         },
         {
             "title": "About Us",
             "link": "/about",
-            "children": [
-                {
+            "children": [{
                     "title": "Vision & Mission",
                     "href": "/about/#vision",
                 },
@@ -86,7 +85,7 @@ class DataProvider {
             "link": "/contact"
         }
     ];
-    static Company = new Promise((res,rej)=>{
+    static Company = new Promise((res, rej) => {
         db.getDB().ref(DBProvider.TABLE_COMPANY).on('value', snapshot => {
             let data = snapshot.val();
             try {
@@ -96,7 +95,7 @@ class DataProvider {
             } catch (_) {
                 rej('err');
             }
-        }, _=>{
+        }, _ => {
             rej('err');
         })
     })
