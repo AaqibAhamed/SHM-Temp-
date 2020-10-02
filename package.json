@@ -1,6 +1,7 @@
 {
     "name": "shm-sl",
     "version": "1.0.0",
+    "homepage": "http://shm.lk",
     "private": true,
     "dependencies": {
         "@types/node": "^12.7.8",
